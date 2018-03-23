@@ -45,7 +45,7 @@ AFRAME.registerComponent('chest', {
 		boxLid.setAttribute('constraint', { 
 			type: 'hinge',
 			target: boxBack,
-			maxForce: 10,
+			maxForce: 10000,
 			axis: { x: 0, y: 0, z: data.dimension },
 			targetAxis: { x: 0, y: 0, z: data.dimension },
 			pivot: { x: -data.dimension / 2, y: -0.05, z: 0 },
